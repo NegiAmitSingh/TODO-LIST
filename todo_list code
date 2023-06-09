@@ -1,0 +1,9 @@
+create table todo_list (task_id int primary key, task_name char, description char, is_completed char);
+
+insert into todo_list Values(1, "SQL Essentials Bootcamp", "Day 1 | Introduction to SQL | SQL Essentials Bootcamp (3 Days)", "Yes");
+
+insert into todo_list Values(2, "SQL Essentials Bootcamp", "Day 2 | SQL Aggregate Functions | SQL Essentials Bootcamp (3 Days)", "Yes");
+
+insert into todo_list Values(3, "SQL Essentials Bootcamp", "Day 3 | CRUD & Project | SQL Essential Bootcamp (3 Days)", "Yes");
+
+select * From todo_list
